@@ -1,0 +1,17 @@
+Virtualized Home Lab using VirtualBox
+Created by Bryan Blaxstone
+I built a virtualized environment using VirtualBox, featuring two virtual machines: one running Ubuntu for network management and another running Kali Linux for security testing.
+•	Setup Process: Installed VirtualBox and its Extension Pack, followed by Ubuntu and Kali Linux ISOs to create and configure the VMs.
+•	Networking: Configured a NAT network to ensure secure internet access and isolation from the host machine. On Ubuntu, I implemented UFW for firewall management, enabling SSH and specific IP access. On Kali Linux, I utilized tools like Nmap and Wireshark for network scans and traffic analysis.
+•	Security Testing: Leveraged the Metasploit Framework on Kali Linux for penetration testing and security evaluations.
+Technologies Used:
+•	Virtualization: VirtualBox
+•	Operating Systems: Ubuntu and Kali Linux
+•	Networking: NAT Network, UFW
+•	Security Tools: Nmap, Wireshark, Metasploit Framework
+Key Skills Gained:
+•	Setting up and managing virtual machines
+•	Installing and configuring Linux operating systems
+•	Designing and managing secure network configurations
+•	Conducting network scans, traffic analysis, and basic penetration testing
+This project strengthened my hands-on experience with virtualization, network management, and security tools, providing a practical foundation for creating secure and functional virtual environments.
